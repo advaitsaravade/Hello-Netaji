@@ -1,0 +1,267 @@
+html {
+    background: #FFF;
+    font-family: sans-serif;
+    margin: 0; padding: 0;
+}
+body {
+    margin: 0; padding: 0;
+}
+#languageTableHolder {
+    width: 100%;
+    background: #174A81;
+}
+#languageTable {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#languageTable tr td {
+    width: 33.33%;
+    text-align: center;
+}
+#languageTable tr td a {
+    display: block;
+    font-size: 15px;
+    padding: 10px 10px;
+    color: #FFF;
+    font-weight: 400;
+    text-decoration: none;
+}
+#main {
+    background: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px auto;
+    padding: 0px 0px 30px 0px;
+    width: 1000px;
+    border-radius: 10px;
+}
+#logo
+{
+    width: 200px;
+    margin: 0px 40px;
+}
+h1 {
+    display: block;
+    font-size: 40px;
+    margin: 0px 50px;
+    font-weight: 600;
+}
+h3 {
+    margin: 0px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 50px;
+    line-height: 32px;
+}
+#divider {
+    width: 80%;
+    margin: 60px auto;
+    height: 1px;
+    background: #d7d7d7;
+}
+#footer #footerText {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+#introductoryTable {
+    width: 100%;
+    margin-top: 30px;
+}
+#wardFinderTable {
+    width: 100%;
+    margin: 60px auto;
+}
+#wardFinderTable tr td {
+    width: 50%;
+    vertical-align: top;
+}
+#wardFinderTable tr td img {
+    display: block;
+    width: 80%;
+    float: right;
+}
+#wardFinderTable tr td select {
+    width: 70%;
+    margin: 30px 50px 20px 50px;
+    height: 45px;
+    border-radius: 6px;
+    padding: 0px 10px;
+    font-size: 19px;
+}
+button {
+    height: 45px;
+    padding: 0px 30px;
+    margin: 0px 50px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    background: #DA2945;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+#button {
+    padding: 10px 30px;
+    margin: 0px 30px 0px 0px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    background: #DA2945;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+#prabhagTable {
+    margin: 30px 0px 30px 30px;
+    border-spacing: 20px;
+}
+#prabhagTable tr td {
+    vertical-align: top;
+    width: 33.33%;
+    border-radius: 6px;
+    background: #F5F5F7;
+    padding: 20px;
+    line-height: 30px;
+}
+#prabhagName {
+    font-size: 25px;
+}
+#sampleCallText {
+    display: block;
+    margin: 30px 0px 0px 0px;
+    text-decoration: none;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    background: #DA2945;
+    color: #FFF;
+}
+#prabhagInformation {
+    margin-top: 30px;
+}
+#sampleCallTextFull {
+    margin-top: 30px;
+    background: #F5F5F7;
+    padding: 30px;
+    border-radius: 6px;
+}
+#list {
+    display: inline-block;
+    margin-left: 30px;
+}
+@media only screen and (max-device-width: 500px)
+{
+    body {
+        margin: 0;
+    }
+    #languageTable
+    {
+        width: 100%;
+    }
+    #languageTable tr td a
+    {
+        font-size: 35px;
+        padding: 30px  0px;
+    }
+    #main
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+    #logo
+    {
+        width: 400px;
+    }
+    h1 {
+        font-size: 80px;
+        margin: 30px 0px 30px 60px;
+    }
+    p {
+        font-size: 40px;
+        line-height: 60px;
+        margin-left: 60px;
+        padding: 0px 60px 0px 0px;
+        max-height: 99999px;
+    }
+    #footer #footerText
+    {
+        font-size: 25px;
+    }
+    #wardFinderTable {
+        margin-top: 60px;
+    }
+    h3 {
+        font-size: 47px;
+        margin: 0px 0px 0px 60px;
+    }
+    #wardFinderTable tr td {
+        width: 100%;
+        display: block;
+    }
+    #wardFinderTable tr td select
+    {
+        width: 70%;
+        height: 110px;
+        border-radius: 10px;
+        padding: 0px 25px;
+        font-size: 40px;
+        margin: 40px 50px 20px 50px;
+    }
+    button {
+        display: block;
+        height: 110px;
+        margin: 30px 50px 20px 50px;
+        font-size: 40px;
+        border-radius: 10px;
+        width: 70%;
+        text-decoration: none;
+    }
+    #button {
+        display: block;
+        padding: 20px 30px;
+        margin: 30px 50px 20px 0px;
+        font-size: 40px;
+        border-radius: 10px;
+        width: 70%;
+        text-decoration: none;
+    }
+    #wardFinderTable tr td img
+    {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 80px;
+    }
+    #prabhagTable {
+        width: 90%;
+        margin: 30px;
+    }
+    #prabhagTable tr td
+    {
+        width: 90%;
+        display: block;
+        font-size: 35px;
+        margin-bottom: 50px;
+        line-height: normal;
+        padding: 45px;
+    }
+    #prabhagName {
+        max-height: 99999px;
+        font-size: 60px;
+    }
+    #sampleCallTextFull
+    {
+        margin-top: 80px;
+    }
+}
